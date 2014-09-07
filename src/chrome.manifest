@@ -1,3 +1,3 @@
-content	cloud-to-butt	chrome/content/	contentaccessible=yes
+content	geek-to-asshole	chrome/content/	contentaccessible=yes
 
-overlay	chrome://browser/content/browser.xul	chrome://cloud-to-butt/content/main.xul
+overlay	chrome://browser/content/browser.xul	chrome://geek-to-asshole/content/main.xul
