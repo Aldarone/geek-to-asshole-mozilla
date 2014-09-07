@@ -33,7 +33,7 @@ function handleText(textNode) {
 	var v = textNode.nodeValue;
 
   // Deal with geeks
-  v = v.replace(/\b(G|g)(eek|amer)(s)?/g, function(match, p1, p2, p3, offset, string) {
+  v = v.replace(/(G|g)(eek|amer)(s)?/g, function(match, p1, p2, p3, offset, string) {
     // g - 6 = a
     // s is to deal with plural
     a = String.fromCharCode(p1.charCodeAt(0) - 6);
