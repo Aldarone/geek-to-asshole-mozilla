@@ -37,7 +37,7 @@ function handleText(textNode) {
     // g - 6 = a
     // s is to deal with plural
     a = String.fromCharCode(p1.charCodeAt(0) - 6);
-    s = p3;
+    s = (typeof p3 !== 'undefined') ? p3 : '';
     return a + 'sshole' + s;
   });
 
